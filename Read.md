@@ -1,4 +1,4 @@
-for...in loop:
+# for...in loop:
 Use Case: Iterating over object keys or array indices.
 
 Example with an array:
@@ -7,7 +7,7 @@ javascript
 Copy code
 const fruits = ["apple", "banana", "orange"];
 
-for (let index in fruits) {
+  for (let index in fruits) {
   console.log(index); // Outputs: 0, 1, 2
   console.log(fruits[index]); // Outputs: apple, banana, orange
 }
@@ -27,7 +27,7 @@ for (let key in person) {
 }
 Note: When using for...in with arrays, it's iterating over indices, and the loop may also include properties inherited from the prototype chain.
 
-for...of loop:
+# for...of loop:
 Use Case: Iterating over iterable objects (e.g., arrays, strings).
 
 Example with an array:
