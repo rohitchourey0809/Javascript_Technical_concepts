@@ -50,3 +50,11 @@ console.log("x",X)
 
 let Y = person3.fullName.call(person4); 
 console.log("Y",Y)
+
+// let a = 10;
+// console.log(" console.log(this.a);",this);
+// function printA() {
+//   console.log(this.a);
+// }
+
+// printA()

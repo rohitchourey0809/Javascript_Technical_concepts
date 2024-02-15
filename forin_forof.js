@@ -2,7 +2,7 @@ const str = "Hello"
 
 // calculate each term of the string
 
-var obj = {}
+let obj = {}
 
 // ## concept of for of loop ##
 // 1. it iterate the each value of the string
@@ -47,7 +47,7 @@ const people = [
   ];
 
 
-var perobj = {}
+let perobj = {}
 
 for(let element of people){
     let Name = element.name
