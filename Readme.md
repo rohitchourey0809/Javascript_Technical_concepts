@@ -33,6 +33,11 @@ Controlled Components: In React, a controlled component is a component whose sta
 
 Uncontrolled Components: An uncontrolled component is a component where the form data is handled by the DOM itself. The state is not controlled by React, and the data is accessed directly from the DOM using refs. Uncontrolled components are less common in React, but they can be useful in certain scenarios.
 
+Controlled vs. Uncontrolled Components:
+
+Controlled Components: Form elements where the value is managed by the component state using the useState hook. User changes trigger state updates and re-renders.
+Uncontrolled Components: Form elements where the value is directly accessed from the DOM using refs. They update asynchronously and might require additional logic for validation and synchronization.
+
 
 Error Boundaries in React:
 

@@ -1,13 +1,13 @@
-let str = "Hello"
-// let str = [{
-//     name: "John",
-//     class: "10",
+// let str = "Hello"
+let str = [{
+    name: "John",
+    class: "10",
    
-// },{
-//     name: "John",
-//     class: "10",
+},{
+    name: "John",
+    class: "10",
    
-// }]
+}]
 let obj = {}
 
 for(const element of str){

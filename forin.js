@@ -9,6 +9,7 @@ const people = [
   
   for (let index in people) {
     const person = people[index];
+    console.log("person",person)
     const Job = person.job;
     const Name = person.name;
     const Age = person.age;
