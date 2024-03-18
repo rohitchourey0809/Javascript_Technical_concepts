@@ -6,6 +6,7 @@
 // Input: "No words"
 // Output: -1
 
+
 // __define-ocg__
 function LetterCount(str) {
   // Split the input string into an array of words
@@ -30,13 +31,13 @@ function LetterCount(str) {
       // Update the count of the current letter in the letterCount object
       letterCount[currentLetter] = (letterCount[currentLetter] || 0) + 1;
     }
-    console.log("letterCount", letterCount);
 
     // Check if any letter is repeated in the current word
     var repeatedLetters = Object.values(letterCount).filter(
       (count) => count > 1
     );
-     console.log("repeatedLetters------?", repeatedLetters);
+
+   
 
     // If there are repeated letters, check if it's more than the current max
     if (

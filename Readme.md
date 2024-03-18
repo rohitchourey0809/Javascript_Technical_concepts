@@ -117,3 +117,45 @@ The Event Loop is a mechanism in JavaScript that allows asynchronous operations 
 # Lazy loading
 
 Lazy loading is a technique in which you defer the loading of non-essential resources or components until they are actually needed. In React, lazy loading is commonly used for code-splitting, where you load parts of your application only when the user navigates to a specific route or interacts with a particular feature
+
+
+# What is JavaScript?
+
+JavaScript is a high-level, interpreted programming language primarily used for creating interactive effects within web browsers.
+
+# What are the key features of JavaScript?
+
+JavaScript is dynamically typed, supports functional and object-oriented programming paradigms, and is used for client-side as well as server-side development (with platforms like Node.js)
+.
+
+# What is the difference between null and undefined?
+
+null represents the intentional absence of any object value, whereas undefined indicates the absence of a value in general. null is a value that can be assigned to a variable, whereas undefined usually means the variable has been declared but not yet assigned a value.
+
+# What is hoisting in JavaScript?
+
+#Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope during the compile phase, before the code execution. However, only the declarations are hoisted, not the initializations.
+
+# What are closures in JavaScript?
+
+Closures are functions that have access to their own scope, the scope in which they were defined, and the global scope. This allows for the preservation of the state of variables even after the outer function has finished executing.
+
+# What is the event loop in JavaScript?
+
+The event loop is a single-threaded mechanism in JavaScript that handles asynchronous callbacks. It continuously checks the call stack for functions to execute, and when it's empty, it looks at the message queue. If there are any messages, it processes them one by one.
+
+# What is the difference between == and === operators?
+
+The == operator checks for equality after type coercion, whereas the === operator checks for equality without type coercion. In other words, === checks for both value and type equality, whereas == only checks for value equality after type conversion.
+
+# What is prototypal inheritance in JavaScript?
+
+Prototypal inheritance is a way of creating objects in JavaScript where objects inherit properties and methods from a prototype. Each object has a private property which holds a link to another object called its prototype.
+
+# What are some ways to handle asynchronous code in JavaScript?
+
+Callbacks, Promises, and Async/Await are common ways to handle asynchronous code in JavaScript. Callbacks were traditionally used, Promises were introduced to simplify callback hell, and Async/Await is a syntactic sugar built on top of Promises to make asynchronous code look synchronous.
+
+# Explain the concept of event bubbling and event capturing.
+
+Event bubbling is the process where an event propagates from the target element up through its ancestors in the DOM tree. Event capturing is the opposite — the event starts from the top of the DOM tree and propagates downwards to the target element.
