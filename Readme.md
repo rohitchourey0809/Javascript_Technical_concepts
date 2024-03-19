@@ -69,6 +69,9 @@ class ErrorBoundary extends React.Component {
 }
 
 
+<!--              -----------------------    JAVASCRIPT    ---------------------------------                  -->
+
+
 # What is JavaScript?
 Answer:
 JavaScript is a high-level, interpreted programming language primarily used for building interactive and dynamic web pages. It enables client-side scripting, allowing developers to create responsive and interactive user interfaces. JavaScript is an essential component of web development, providing the ability to manipulate the Document Object Model (DOM), handle events, and communicate with servers using technologies like AJAX.
@@ -159,3 +162,27 @@ Callbacks, Promises, and Async/Await are common ways to handle asynchronous code
 # Explain the concept of event bubbling and event capturing.
 
 Event bubbling is the process where an event propagates from the target element up through its ancestors in the DOM tree. Event capturing is the opposite — the event starts from the top of the DOM tree and propagates downwards to the target element.
+
+# What is NaN property in JavaScript?
+NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+
+typeof of NaN will return a Number.
+
+To check if a value is NaN, we use the isNaN() function,
+
+Note- isNaN() function converts the given value to a Number type, and then equates to NaN.
+
+isNaN("Hello")  // Returns true
+
+isNaN(345)   // Returns false
+
+isNaN('1')  // Returns false, since '1' is converted to Number type which results in 0 ( a number) 
+
+isNaN(true) // Returns false, since true converted to Number type results in 1 ( a number)
+isNaN(false) // Returns false
+isNaN(undefined) // Returns true
+
+# Explain passed by value and passed by reference.
+Ans:-  Pass By 
+
+
