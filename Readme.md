@@ -69,7 +69,7 @@ class ErrorBoundary extends React.Component {
 }
 
 
-<!--              -----------------------    JAVASCRIPT    ---------------------------------                  -->
+# **                -----------------------    JAVASCRIPT    ---------------------------------               **#
 
 
 # What is JavaScript?
@@ -183,6 +183,6 @@ isNaN(false) // Returns false
 isNaN(undefined) // Returns true
 
 # Explain passed by value and passed by reference.
-Ans:-  Pass By 
+Ans:- In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
 
 
