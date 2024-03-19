@@ -232,7 +232,10 @@ In JavaScript, ```coercion refers to the process of converting a value from one 
 
 Coercion can occur implicitly or explicitly:
 
-**Implicit coercion:** This occurs when JavaScript automatically converts the data type of a value during operations such as comparisons or arithmetic operations. For example, when you use the + operator with different data types, JavaScript may attempt to convert one or both of the operands to a common data type before performing the operation.
+**Implicit coercion:** 
+$$
+ This occurs when JavaScript automatically converts the data type of a value during operations such as comparisons or arithmetic operations. For example, when you use the + operator with different data types, JavaScript may attempt to convert one or both of the operands to a common data type before performing the operation.
+$$
 
 javascript
 Copy code
@@ -240,7 +243,9 @@ let num = 10;
 let str = "20";
 let result = num + str; // result will be "1020" (string concatenation), str is implicitly coerced to a string
 
-**Explicit coercion:** $$
+**Explicit coercion:** 
+
+$$
 This occurs when you explicitly convert a value from one data type to another using functions or operators like parseInt(), parseFloat(), String(), Number(), or the unary plus operator (+).
 $$
 
