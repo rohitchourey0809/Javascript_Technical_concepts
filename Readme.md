@@ -151,26 +151,44 @@ The event loop is a single-threaded mechanism in JavaScript that handles asynchr
 
 The == operator checks for equality after type coercion, whereas the === operator checks for equality without type coercion. In other words, === checks for both value and type equality, whereas == only checks for value equality after type conversion.
 
+**Imp1**
+console.log("1" == 1)   //  it gives true
+console.log("1" === 1)   // it gives false
+
+console.log(1 + "b") // 1b
+console.log(a + "b") // a is not defined
+console.log("a" - "b") // Nan
+**Imp2**
+
 # What is prototypal inheritance in JavaScript?
 
-Prototypal inheritance is a way of creating objects in JavaScript where objects inherit properties and methods from a prototype. Each object has a private property which holds a link to another object called its prototype.
+*Ans* Prototypal inheritance is a way of creating objects in JavaScript where objects inherit properties and methods from a prototype.
+ Each object has a private property which holds a link to another object called its prototype.
 
 # What are some ways to handle asynchronous code in JavaScript?
 
-Callbacks, Promises, and Async/Await are common ways to handle asynchronous code in JavaScript. Callbacks were traditionally used, Promises were introduced to simplify callback hell, and Async/Await is a syntactic sugar built on top of Promises to make asynchronous code look synchronous.
+*Ans* Callbacks, Promises, and Async/Await are common ways to handle asynchronous code in JavaScript. Callbacks were traditionally used, Promises were introduced to simplify callback hell, and Async/Await is a syntactic sugar built on top of Promises to make asynchronous code look synchronous.
 
 # Explain the concept of event bubbling and event capturing.
 
-Event bubbling is the process where an event propagates from the target element up through its ancestors in the DOM tree. Event capturing is the opposite — the event starts from the top of the DOM tree and propagates downwards to the target element.
+*Ans* Event bubbling is the process where an event propagates from the target element up through its ancestors in the DOM tree. 
+
+*Ans* Event capturing is the opposite — the event starts from the top of the DOM tree and propagates downwards to the target element.
 
 # What is NaN property in JavaScript?
-NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+*Highlight* NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number. *Highlight*
+
+*NOTE* console.log(typeof null) // {} || object *NOTE*
+*NOTE* console.log(typeof undefined) // undefined *NOTE*
+
+
+console.log(typeof NaN) // number
 
 typeof of NaN will return a Number.
 
 To check if a value is NaN, we use the isNaN() function,
 
-Note- isNaN() function converts the given value to a Number type, and then equates to NaN.
+*NOTE* isNaN() function converts the given value to a Number type, and then equates to NaN. *NOTE*
 
 isNaN("Hello")  // Returns true
 
@@ -179,7 +197,9 @@ isNaN(345)   // Returns false
 isNaN('1')  // Returns false, since '1' is converted to Number type which results in 0 ( a number) 
 
 isNaN(true) // Returns false, since true converted to Number type results in 1 ( a number)
+
 isNaN(false) // Returns false
+
 isNaN(undefined) // Returns true
 
 # Explain passed by value and passed by reference.
