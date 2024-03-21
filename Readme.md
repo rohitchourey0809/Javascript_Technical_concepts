@@ -390,8 +390,9 @@ CSS preprocessors are tools that extend the capabilities of CSS by introducing f
 ### How can CSS3 gradients be created, and what are the different types available?
 CSS3 gradients allow developers to create smooth transitions between two or more colors without using images. Gradients can be created using the linear-gradient() or radial-gradient() functions, specifying the starting and ending colors, directions, and color stops. Different types of gradients include:
 
-1. Linear gradients: Transition in a straight line from one color to another.
-2. Radial gradients: Transition from the center to the edge of a circle, ellipse, or rectangle.
-3. Repeating gradients: Repeat the gradient pattern infinitely along the specified axis.
+Unordered Lists:
+– [1]  Linear gradients: Transition in a straight line from one color to another.
+– [2]  Radial gradients: Transition from the center to the edge of a circle, ellipse, or rectangle.
+– [3]  Repeating gradients: Repeat the gradient pattern infinitely along the specified axis.
 
 
