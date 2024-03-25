@@ -1,4 +1,4 @@
-const str = "Hello"
+let str = "Hello"
 
 // calculate each term of the string
 
@@ -9,11 +9,11 @@ let obj = {}
 
 
 
-// for(let element of str){
-//     obj[element] = (obj[element] || 0) + 1
-//     console.log("element: " , obj[element])
-// }
-// console.log("forofObject: " , obj)
+for(let i = 0; i<str.length;i++){
+    obj[str[i]] = (obj[str[i]] || 0) + 1;
+    console.log("element: ", obj[str[i]]);
+}
+console.log("forofObject: " , Object.entries(obj));
 
 
 // <-------------------------------------------------------------------->

@@ -14,7 +14,11 @@ var,let,concept
  What is Lazy loading?
 
 
- <!-- React Question -->
- What is R
+ <!-- CSS Question -->
+ ~~https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/~~
+Position-fixed
+Position-absolute
+Position-relative
+Position-sticky
 
 
