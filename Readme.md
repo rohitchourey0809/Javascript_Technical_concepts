@@ -284,7 +284,7 @@ asyncFunction1(param1, function(err, result1) {
 });
 
 
-<----------------------------------------------- HTML AND CSS QUESTION ----------------------------------------------------------------->
+**   <----------------------------------------------- HTML AND CSS QUESTION -----------------------------------------------------------------> **
 Certainly! Here are the answers to the HTML5 interview questions:
 
 # What are the new features introduced in HTML5?
