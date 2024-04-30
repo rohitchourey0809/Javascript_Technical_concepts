@@ -13,4 +13,4 @@ console.log("shallowcopy",arr)
 let arr3 = arr  //deep copy  memory address store
 arr3[0] = 11
 
-console.log("deepcopy", arr3);
+console.log("deepcopy", arr);
