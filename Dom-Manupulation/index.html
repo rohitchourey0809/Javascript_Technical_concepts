@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="styles.css">
+    <style>
+     .folder {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul ul {
+    display: none;
+}
+
+    </style>
+</head>
+<body>
+       <div id="fileExplorer">
+        <ul id="root">
+            <li class="folder">Documents
+                <ul>
+                    <li>Document 1.txt</li>
+                    <li>Document 2.txt</li>
+                </ul>
+            </li>
+            <li class="folder">Images
+                <ul>
+                    <li>Image 1.jpg</li>
+                    <li>Image 2.png</li>
+                </ul>
+            </li>
+        </ul>
+</body>
+</html>
+<script >
+document.addEventListener("DOMContentLoaded", function () {
+  const folders = document.querySelectorAll(".folder");
+
+  folders.forEach((folder) => {
+    folder.addEventListener("click", function () {
+      const subFolders = this.querySelector("ul");
+      if (subFolders) {
+        if (subFolders.style.display === "none") {
+          subFolders.style.display = "block";
+        } else {
+          subFolders.style.display = "none";
+        }
+      }
+    });
+  });
+});
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const folders = document.querySelectorAll(".folder");
+
+//   folders.forEach((folder) => {
+//     folder.addEventListener("click", function () {
+//       const subFolders = this.querySelector("ul");
+//       if (subFolders) {
+//         if (subFolders.style.display === "none") {
+//           subFolders.style.display = "block";
+//         } else {
+//           subFolders.style.display = "none";
+//         }
+//       }
+//     });
+//   });
+// });
+
+
+</script>
